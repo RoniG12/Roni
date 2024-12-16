@@ -1,0 +1,30 @@
+body{
+    overflow: hidden;
+    background-image: url("./סערה.jpeg");
+    background-repeat: no-repeat;
+      background-size: cover; 
+}
+
+.tipa3 {
+width: 70px;
+position: absolute;
+animation-name: goUp;
+animation-duration: 15s;
+animation-fill-mode: forwards;
+}
+
+@keyframes goUp{
+    0%{
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-1500px);
+    }
+}
+button{
+    background-color: cadetblue;
+    width: 50px;
+ left: 50px;  
+}
+
+
